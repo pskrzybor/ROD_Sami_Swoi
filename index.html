@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page with Static Image Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Index Page with Static Image Map</h1>
+
+    <!-- Image with map -->
+    <img src="map.jpg" alt="Map" usemap="#map">
+
+    <!-- Map definition -->
+    <map name="map">
+        <!-- Define the clickable areas directly in the HTML -->
+        <area shape="rect" coords="34,44,270,350" href="details.html?id=1" alt="Link 1">
+        <area shape="rect" coords="290,172,333,250" href="details.html?id=2" alt="Link 2">
+        <!-- Add more areas as needed -->
+    </map>
+</body>
+</html>
